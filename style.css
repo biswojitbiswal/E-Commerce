@@ -102,7 +102,7 @@ body{
 /* =========for hero section ======== */
 #hero{
     height :  90vh;
-    background-image: url(image/hero3.png);
+    background-image: url(Image/hero3.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +292,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(image/banner/b17.jpg);
+    background-image: url(Image/banner/b17.jpg);
     width: 48%;
     height: 50vh;
     background-size: cover;
@@ -344,7 +344,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(image/banner/b7.jpg);
+    background-image: url(Image/banner/b7.jpg);
     width: 32%;
     height: 30vh;
     background-size: cover;
