@@ -6,9 +6,16 @@ const smallImages = document.querySelectorAll('.small-img img');
 const colors = document.querySelectorAll('.color');
 const sizes = document.querySelectorAll('.size');
 const mainImage = document.querySelector('#prod-details .prod-look .prod-img #mainimg');
+document.addEventListener("DOMContentLoaded", function() {
+    const cartIcon = document.querySelector('#cart-icon');
+
+    cartIcon.addEventListener("click", function() {
+        console.log("Clicked!"); // Check if click event is being triggered
+        window.location.href = 'cart.html';
+    });
+});
 
 
-// Optionally, you can add event listeners for arrow buttons or touch/swipe gestures to navigate the slider
 
 
 // for cart icon function
