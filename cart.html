@@ -1,105 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="header">
-        <a href="#"><img src="Image/logo1.png" alt="" class="logo"></a>
+      <a href="#"><img src="Image/logo1.png" alt="" class="logo" /></a>
 
-        <div class="navbar">
-            <ul id="navbar">
-                <a id="close" href="#"><i class="fa-solid fa-x"></i></a>
-                <li class="nav-link"><a href="index.html">Home</a></li>
-                <li class="nav-link"><a href="shop.html">Shop</a></li>
-                <li class="nav-link"><a href="blog.html">Blog</a></li>
-                <li class="nav-link"><a href="about.html">About</a></li>
-                <li class="nav-link"><a href="contact.html">Contact</a></li>
-                <li class="nav-link"><a class="active" href="cart.html"><i id="cart" class="fa-solid fa-cart-shopping"></i></a></li>
-
-            </ul>
-        </div>
-        <div id="mobile">
-            <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
-            <i id="bar-icon" class="fa-solid fa-bars"></i>
-        </div>
+      <div class="navbar">
+        <ul id="navbar">
+          <a id="close" href="#"><i class="fa-solid fa-x"></i></a>
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="shop.html">Shop</a></li>
+          <li class="nav-link"><a href="blog.html">Blog</a></li>
+          <li class="nav-link"><a href="about.html">About</a></li>
+          <li class="nav-link"><a href="contact.html">Contact</a></li>
+          <li class="nav-link">
+            <a class="active" href="cart.html"
+              ><i id="cart" class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+        <i id="bar-icon" class="fa-solid fa-bars"></i>
+      </div>
     </section>
 
     <section id="blog-banner">
-        <h1>#Your Cart</h1>
-        <p>Place your order with exciting offers</p>
+      <h1>#Your Cart</h1>
+      <p>Place your order with exciting offers</p>
     </section>
-    
-    <section id="cart-items" class="section-p">
-        <!-- <div class="item">
-            
-        </div> -->
+
+    <section id="cart-items" class="section-p section-m">
+      <ul class="cart-items"></ul>
     </section>
 
     <section id="news-letter" class="section-p section-m">
-        <div class="news-text">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get Email updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="email-form">
-            <input type="text" placeholder="Your Email Address">
-            <button class="normal">Sign up</button>
-        </div>
+      <div class="news-text">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get Email updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="email-form">
+        <input type="text" placeholder="Your Email Address" />
+        <button class="normal">Sign up</button>
+      </div>
     </section>
 
     <footer class="section-p">
-        <div class="info">
-            <div class="col">
-                <img class="logo" src="Image/logo1.png" alt="">
-                <h4>Contact</h4>
-                <p>Sohna, Gurgaon, Haryana, 122103</p>
-                <p>(+91)6372642583</p>
-                <p>10:00 - 06:00 (Mon - Sat)</p>
-                <div class="follow">
-                    <h4>Follow Us</h4>
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                    </div>
-                </div>
+      <div class="info">
+        <div class="col">
+          <img class="logo" src="Image/logo1.png" alt="" />
+          <h4>Contact</h4>
+          <p>Sohna, Gurgaon, Haryana, 122103</p>
+          <p>(+91)6372642583</p>
+          <p>10:00 - 06:00 (Mon - Sat)</p>
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
             </div>
-            <div class="col">
-                <h4>About</h4>
-                <a href="#">About Us</a>
-                <a href="#">Delivery Information</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="col">
-                <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View cart</a>
-                <a href="#">My Wishlist</a>
-                <a href="#">Track My Order</a>
-                <a href="#">Help</a>
-            </div>
-            <div class="col">
-                <h4>Install App</h4>
-                <p>From App Store or Google Play</p>
-                <div class="apps">
-                    <img src="Image/pay/app.jpg" alt="">
-                    <img src="Image/pay/play.jpg" alt="">
-                </div>
-                <p>Secured Payment Gateway</p>
-                <img src="Image/pay/pay.png" alt="">
-            </div>
+          </div>
         </div>
-        <div class="copy-right">
-            <p>&copy; 2024 Biswojit. All rights reserved.</p>
+        <div class="col">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
         </div>
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="col">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="apps">
+            <img src="Image/pay/app.jpg" alt="" />
+            <img src="Image/pay/play.jpg" alt="" />
+          </div>
+          <p>Secured Payment Gateway</p>
+          <img src="Image/pay/pay.png" alt="" />
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>&copy; 2024 Biswojit. All rights reserved.</p>
+      </div>
     </footer>
+
     <script src="script.js"></script>
-</body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let items = JSON.parse(localStorage.getItem("items")) || [];
+            // console.log(items);
+            const cartItems = document.querySelector(".cart-items");
+
+            function renderItems() {
+            cartItems.innerHTML = items
+                .map(
+                (item) => `
+                        <li  class="cart-item">
+                            <div class="item-info">
+                                <div>
+                                <img src="${item.image}" alt="" class="cartitem-image">
+                            </div>
+                            <div class="item-details">
+                                <h3>${item.name}</h3>
+                                <h4>${item.heading}</h4>
+                                <h4>${item.price}</h4>
+                            </div>
+                            </div>
+                            <div class="cart-btn">
+                                <button key=${item.id} class="remove-btn normal">REMOVE</button>
+                                <button class="buy-btn normal">BUY NOW</button>
+                            </div>
+                        </li>
+                    `
+                )
+                .join("");
+            }
+            renderItems();
+
+            const cartItem = document.querySelectorAll('.cart-item');
+            cartItem.forEach(item => {
+                // console.log(item);
+                const removeBtn = item.querySelector('.remove-btn');
+                removeBtn.addEventListener("click", function(){
+                    const btnId = removeBtn.getAttribute('key');
+                    items = items.filter(product => btnId !== product.id);
+                    localStorage.setItem('items', JSON.stringify(items));
+                    // console.log(items);
+                    // renderItems();
+                    location.reload();
+                })
+            })
+            
+        });
+    </script>
+  </body>
 </html>
