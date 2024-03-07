@@ -1274,4 +1274,8 @@ footer .copy-right {
         min-width: 100px;
         
     }
+    .cart-btn .remove-btn, .cart-btn .buy-btn {
+        padding: .5rem 1.5rem;
+        margin: .25rem;
+    }
 }
