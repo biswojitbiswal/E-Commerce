@@ -1271,7 +1271,7 @@ footer .copy-right {
     }
     #cart-items .cart-items li {
         width: 100%;
-        min-width: 350px;
+        min-width: 200px;
         
     }
 }
